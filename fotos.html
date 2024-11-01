@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+    <link rel="stylesheet" href="fotos.css">
+</head>
+<body>
+
+    <body>
+        <style>
+        
+        .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.menu button {
+    background-color: #7461ba; /* Cor do botão */
+    color: #F5EFFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #E5D9F2;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left: 0;
+    z-index: 1;
+}
+
+.menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.menu:hover .menu-content {
+    display: block;
+}
+
+/* Estilos gerais */
+.container {
+    padding: 20px;
+}
+        </style>
+    </head>
+    <body>
+        
+        <!-- Menu suspenso -->
+        
+    
+        <div class="menu">
+            <button>Menu</button>
+            <div class="menu-content">
+                <a href="submeter.html">Submeter</a>
+                <a href="fotos.html">Fotos</a>
+                <a href="localizacao.html">Localização</a>
+                <a href="youtube.html" target="_blank">YouTube</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="quemsoueu.html">Quem Sou Eu</a>
+                <a href="index.html">Cadastro</a>
+            </div>
+        </div>
+    
+        
+    <div class="container">
+        <h2>Galeria de Fotos</h2>
+        <div class="gallery">
+            <div class="photo">
+                <img src="https://i.pinimg.com/736x/ba/34/81/ba3481c81c0c67a14aae3c30b535e2ec.jpg" alt="Foto 1">
+                <p>Páris</p>
+            </div>
+            <div class="photo">
+                <img src="https://s.widget-club.com/images/YyiR86zpwIMIfrCZoSs4ulVD9RF3/864e5f3601f44ef8bd21e1358de210b3/9dd51c84e9cd217f42b9c6d797535e0f.jpg?q=70&w=500" alt="Foto 2">
+                <p>Pássaro</p>
+            </div>
+            <div class="photo">
+                <img src="https://image.cdn2.seaart.ai/2023-11-07/22039499374652421/dba7d66a10f2c76fd252e42ac677d0c263b1e99b_high.webp" alt="Foto 3">
+                <p>Borboleta</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

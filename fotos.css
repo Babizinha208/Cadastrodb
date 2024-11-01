@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #CDC1FF;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo {
+    margin: 10px;
+    padding: 100px;
+    border: 2px solid #8973f5;
+    border-radius: 8px;
+    width: 30%;
+    background-color: #E4E0E1;
+}
+
+.photo img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.photo p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+

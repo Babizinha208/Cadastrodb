@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nome-sobrenome {
+    display: flex;
+    gap: 50px; /* Espaçamento entre os campos */
+}
+
+.nome-sobrenome input {
+    flex: 1; /* Ajusta a largura dos campos */
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #CDC1FF;
+   
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+.container {
+    background-color: #7461ba; /* Fundo branco com leve transparência */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h2 {
+    
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #a393f0;
+    border-radius: 6px;
+    
+}
+
+button  {
+    background-color: #E5D9F2;
+    color: black;
+   cursor: pointer;
+   padding: 10px 200px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 20px;
+   margin: 0 auto;
+   display: block;
+}
+
+button:hover {
+    background-color: #97d0e0;
+}
+
+.iniciante {
+    display: flex;
+    align-items: center;
+    gap: 2PX;
+    justify-content: center;
+     margin-top: 10PX;
+  
+
+
+}
+
+
